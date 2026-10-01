@@ -22,7 +22,7 @@ Vikunja is an open-source, self-hostable to-do app. It helps you organize your t
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
 | `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
-| `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
+| `latest` / `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
 
 ## Prerequisites
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
@@ -52,7 +52,7 @@ name: vikunja
 
 services:
   vikunja:
-    image: ghcr.io/daemonless/vikunja:pkg
+    image: ghcr.io/daemonless/vikunja:latest
     container_name: vikunja
     # "always", not "unless-stopped": FreeBSD's podman rc.d only auto-starts
     # containers with restart-policy=always at boot (needs podman_enable=YES).
@@ -107,7 +107,7 @@ name: vikunja
 services:
   vikunja:
     depends_on: [postgres]
-    image: ghcr.io/daemonless/vikunja:pkg
+    image: ghcr.io/daemonless/vikunja:latest
     container_name: vikunja
     # "always", not "unless-stopped": FreeBSD's podman rc.d only auto-starts
     # containers with restart-policy=always at boot (needs podman_enable=YES).
@@ -173,7 +173,7 @@ name: vikunja
 services:
   vikunja:
     depends_on: [mariadb]
-    image: ghcr.io/daemonless/vikunja:pkg
+    image: ghcr.io/daemonless/vikunja:latest
     container_name: vikunja
     # "always", not "unless-stopped": FreeBSD's podman rc.d only auto-starts
     # containers with restart-policy=always at boot (needs podman_enable=YES).
@@ -236,7 +236,7 @@ name: vikunja
 
 services:
   vikunja:
-    image: ghcr.io/daemonless/vikunja:pkg
+    image: ghcr.io/daemonless/vikunja:latest
     container_name: vikunja
     # "always", not "unless-stopped": FreeBSD's podman rc.d only auto-starts
     # containers with restart-policy=always at boot (needs podman_enable=YES).
