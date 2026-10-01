@@ -1,0 +1,11 @@
+#!/bin/sh
+# Vikunja signs logins with service.secret and makes a new one on every start
+# when none is set, which logs everyone out on each restart. Keep one in /config.
+mkdir -p /config/files
+if [ -z "${VIKUNJA_SERVICE_SECRET:-}" ] && [ ! -s /config/.secret ]; then
+    echo "[vikunja] Creating /config/.secret"
+    (umask 077; od -An -tx1 -N32 /dev/urandom | tr -d " \n" > /config/.secret)
+fi
+chown bsd:bsd /config /config/files
+[ -f /config/.secret ] && chown bsd:bsd /config/.secret
+exit 0

@@ -1,0 +1,26 @@
+#!/bin/sh
+# Vikunja s6 service
+export HOME=/config
+
+# Everything under /config; a user's own VIKUNJA_* settings still win.
+export VIKUNJA_SERVICE_ROOTPATH="${VIKUNJA_SERVICE_ROOTPATH:-/config}"
+export VIKUNJA_DATABASE_PATH="${VIKUNJA_DATABASE_PATH:-/config/vikunja.db}"
+export VIKUNJA_FILES_BASEPATH="${VIKUNJA_FILES_BASEPATH:-/config/files}"
+if [ -z "${VIKUNJA_SERVICE_SECRET:-}" ] && [ -s /config/.secret ]; then
+    VIKUNJA_SERVICE_SECRET="$(cat /config/.secret)"
+    export VIKUNJA_SERVICE_SECRET
+fi
+
+# Vikunja refuses to start with CORS on and no public URL. The web UI is served
+# by the same process, so without a public URL CORS is simply not needed.
+if [ -z "${VIKUNJA_SERVICE_PUBLICURL:-}" ]; then
+    unset VIKUNJA_SERVICE_PUBLICURL
+    export VIKUNJA_CORS_ENABLE="${VIKUNJA_CORS_ENABLE:-false}"
+fi
+
+# Signal readiness once the healthcheck passes (FD 3, see notification-fd)
+s6-ready-when /healthz
+
+echo "[INFO] Starting vikunja..."
+cd /config
+exec /usr/local/bin/s6-setuidgid bsd /usr/local/bin/vikunja
