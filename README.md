@@ -85,7 +85,7 @@ One more container, its data in its own folder. For a household, or an app that 
 
 **1.** Save as `.env` and fill in what is empty:
 
-```env { data-zip-bundle="vikunja-podman-postgres" data-zip-filename=".env" }
+```env { data-zip-bundle="vikunja-podman-database-postgres" data-zip-filename=".env" }
 PUID=1000
 PGID=1000
 TZ=UTC
@@ -101,7 +101,7 @@ DATABASE_LOCATION=/containers/vikunja/postgres
 
 **2.** Save as `compose.yaml`:
 
-```yaml { data-zip-bundle="vikunja-podman-postgres" data-zip-filename="compose.yaml" }
+```yaml { data-zip-bundle="vikunja-podman-database-postgres" data-zip-filename="compose.yaml" }
 name: vikunja
 
 services:
@@ -151,7 +151,7 @@ One more container, its data in its own folder. If you already know MariaDB, or 
 
 **1.** Save as `.env` and fill in what is empty:
 
-```env { data-zip-bundle="vikunja-podman-mariadb" data-zip-filename=".env" }
+```env { data-zip-bundle="vikunja-podman-database-mariadb" data-zip-filename=".env" }
 PUID=1000
 PGID=1000
 TZ=UTC
@@ -167,7 +167,7 @@ DATABASE_LOCATION=/containers/vikunja/mariadb
 
 **2.** Save as `compose.yaml`:
 
-```yaml { data-zip-bundle="vikunja-podman-mariadb" data-zip-filename="compose.yaml" }
+```yaml { data-zip-bundle="vikunja-podman-database-mariadb" data-zip-filename="compose.yaml" }
 name: vikunja
 
 services:
@@ -216,7 +216,7 @@ A database you already run, here or on another machine. Nothing extra runs; you 
 
 **1.** Save as `.env` and fill in Kind, Host, User, Password, Database:
 
-```env { data-zip-bundle="vikunja-podman-external" data-zip-filename=".env" }
+```env { data-zip-bundle="vikunja-podman-database-external" data-zip-filename=".env" }
 PUID=1000
 PGID=1000
 TZ=UTC
@@ -231,7 +231,7 @@ VIKUNJA_DATABASE_DATABASE=  # Database
 
 **2.** Save as `compose.yaml`:
 
-```yaml { data-zip-bundle="vikunja-podman-external" data-zip-filename="compose.yaml" }
+```yaml { data-zip-bundle="vikunja-podman-database-external" data-zip-filename="compose.yaml" }
 name: vikunja
 
 services:
