@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-03T11:06:17Z",
+  "generated": "2026-10-04T09:48:05Z",
   "image": "vikunja",
   "tags": {
-    "pkg": {
+    "pkg-amd64": {
       "app_version": "2.3.0_5",
       "arch": "amd64",
-      "generated": "2026-10-03T11:04:41Z",
+      "generated": "2026-10-04T09:46:07Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1052,10 +1052,10 @@
         "total": 187
       }
     },
-    "pkg-latest": {
+    "pkg-latest-amd64": {
       "app_version": "2.6.0",
       "arch": "amd64",
-      "generated": "2026-10-03T11:05:47Z",
+      "generated": "2026-10-04T09:47:28Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
