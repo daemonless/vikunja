@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-11T10:10:59Z",
+  "generated": "2026-10-11T22:49:42Z",
   "image": "vikunja",
   "tags": {
     "pkg-amd64": {
-      "app_version": "2.6.0",
+      "app_version": "2.6.0_1",
       "arch": "amd64",
-      "generated": "2026-10-11T10:10:30Z",
+      "generated": "2026-10-11T22:45:52Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -301,7 +301,7 @@
               "AGPLv3+"
             ],
             "name": "vikunja",
-            "version": "2.6.0"
+            "version": "2.6.0_1"
           }
         ],
         "go": [
@@ -1053,7 +1053,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.27.1"
+            "version": "v1.27.2"
           },
           {
             "name": "xorm.io/builder",
@@ -1088,9 +1088,9 @@
       }
     },
     "pkg-latest-amd64": {
-      "app_version": "2.7.0",
+      "app_version": "2.7.0_1",
       "arch": "amd64",
-      "generated": "2026-10-11T10:10:11Z",
+      "generated": "2026-10-11T22:46:07Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1337,7 +1337,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
@@ -1386,7 +1386,7 @@
               "AGPLv3+"
             ],
             "name": "vikunja",
-            "version": "2.7.0"
+            "version": "2.7.0_1"
           }
         ],
         "go": [
@@ -2183,7 +2183,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.27.1"
+            "version": "v1.27.2"
           },
           {
             "name": "xorm.io/builder",

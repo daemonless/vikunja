@@ -379,7 +379,7 @@ services:
         - VIKUNJA_DATABASE_DATABASE: !ENV '${VIKUNJA_DATABASE_DATABASE}'
     volumes:
       - vikunja: /config
-  vikunja-postgres:
+  postgres:
     name: vikunja_postgres
     priority: 10
     options:
@@ -479,7 +479,7 @@ services:
         - VIKUNJA_DATABASE_DATABASE: !ENV '${VIKUNJA_DATABASE_DATABASE}'
     volumes:
       - vikunja: /config
-  vikunja-mariadb:
+  mariadb:
     name: vikunja_mariadb
     priority: 10
     options:
