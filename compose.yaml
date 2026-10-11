@@ -12,6 +12,12 @@ x-daemonless:
   mlock: false
   community: "Discord:https://discord.gg/Kb9tkhecZT"
 
+  # vikunja is the one people open; the database the Database choice adds
+  # stays on the stack's private network.
+  networking:
+    vikunja: default
+    "*": private
+
   choices:
     database:
       kind: database
