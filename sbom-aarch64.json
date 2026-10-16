@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-14T20:17:34Z",
+  "generated": "2026-10-16T21:47:04Z",
   "image": "vikunja",
   "tags": {
     "pkg-aarch64": {
-      "app_version": "2.6.0",
+      "app_version": "2.6.0_1",
       "arch": "aarch64",
-      "generated": "2026-10-14T20:16:39Z",
+      "generated": "2026-10-16T21:46:05Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -301,7 +301,7 @@
               "AGPLv3+"
             ],
             "name": "vikunja",
-            "version": "2.6.0"
+            "version": "2.6.0_1"
           }
         ],
         "go": [
@@ -1053,7 +1053,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.27.1"
+            "version": "v1.27.2"
           },
           {
             "name": "xorm.io/builder",
@@ -1090,7 +1090,7 @@
     "pkg-latest-aarch64": {
       "app_version": "2.7.0_1",
       "arch": "aarch64",
-      "generated": "2026-10-14T20:16:43Z",
+      "generated": "2026-10-16T21:46:09Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
