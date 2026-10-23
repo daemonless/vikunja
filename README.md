@@ -579,8 +579,7 @@ OPTION from=ghcr.io/daemonless/vikunja:${tag}
 ```
 
 Save the files above, then run `appjail-director up`.
-
-Access at: `http://localhost:3456`
+Open `http://<server>:3456` from another machine (the server's own browser can't use a published port).
 
 ## Parameters
 
