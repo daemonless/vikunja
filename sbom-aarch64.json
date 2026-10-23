@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T10:43:23Z",
+  "generated": "2026-10-23T19:19:13Z",
   "image": "vikunja",
   "tags": {
     "pkg-aarch64": {
       "app_version": "2.6.0_1",
       "arch": "aarch64",
-      "generated": "2026-10-23T10:42:14Z",
+      "generated": "2026-10-23T19:18:10Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1069,7 +1069,7 @@
     "pkg-latest-aarch64": {
       "app_version": "2.7.0_1",
       "arch": "aarch64",
-      "generated": "2026-10-23T10:42:17Z",
+      "generated": "2026-10-23T19:18:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
