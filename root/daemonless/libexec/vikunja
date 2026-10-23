@@ -1,5 +1,5 @@
 #!/bin/sh
-# Vikunja s6 service
+# Start vikunja; /init has already dropped to the run user.
 export HOME=/config
 
 # Everything under /config; a user's own VIKUNJA_* settings still win.
@@ -18,9 +18,6 @@ if [ -z "${VIKUNJA_SERVICE_PUBLICURL:-}" ]; then
     export VIKUNJA_CORS_ENABLE="${VIKUNJA_CORS_ENABLE:-false}"
 fi
 
-# Signal readiness once the healthcheck passes (FD 3, see notification-fd)
-s6-ready-when /healthz
-
 echo "[INFO] Starting vikunja..."
 cd /config
-exec /usr/local/bin/s6-setuidgid bsd /usr/local/bin/vikunja
+exec /usr/local/bin/vikunja
