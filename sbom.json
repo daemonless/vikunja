@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T22:12:48Z",
+  "generated": "2026-10-28T15:50:19Z",
   "image": "vikunja",
   "tags": {
     "pkg-amd64": {
       "app_version": "2.6.0_2",
       "arch": "amd64",
-      "generated": "2026-10-23T22:11:49Z",
+      "generated": "2026-10-28T15:48:32Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1067,9 +1067,9 @@
       }
     },
     "pkg-latest-amd64": {
-      "app_version": "2.7.0_2",
+      "app_version": "2.7.1",
       "arch": "amd64",
-      "generated": "2026-10-23T22:12:13Z",
+      "generated": "2026-10-28T15:49:32Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1344,7 +1344,7 @@
               "AGPLv3+"
             ],
             "name": "vikunja",
-            "version": "2.7.0_2"
+            "version": "2.7.1"
           }
         ],
         "go": [
@@ -1851,7 +1851,7 @@
           {
             "name": "github.com/modelcontextprotocol/go-sdk",
             "purl": "",
-            "version": "v1.6.1"
+            "version": "v1.8.0"
           },
           {
             "name": "github.com/munnerz/goautoneg",
@@ -2081,7 +2081,7 @@
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.59.0"
+            "version": "v0.60.0"
           },
           {
             "name": "golang.org/x/oauth2",
