@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-28T16:45:10Z",
+  "generated": "2026-11-03T10:09:50Z",
   "image": "vikunja",
   "tags": {
     "pkg-aarch64": {
-      "app_version": "2.6.0_1",
+      "app_version": "2.6.0_2",
       "arch": "aarch64",
-      "generated": "2026-10-28T16:43:37Z",
+      "generated": "2026-11-03T10:08:12Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -189,7 +189,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p5"
+            "version": "15.1p6"
           },
           {
             "licenses": [
@@ -280,7 +280,7 @@
               "AGPLv3+"
             ],
             "name": "vikunja",
-            "version": "2.6.0_1"
+            "version": "2.6.0_2"
           }
         ],
         "go": [
@@ -1032,7 +1032,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.27.2"
+            "version": "v1.27.3"
           },
           {
             "name": "xorm.io/builder",
@@ -1067,9 +1067,9 @@
       }
     },
     "pkg-latest-aarch64": {
-      "app_version": "2.7.0_1",
+      "app_version": "2.7.1",
       "arch": "aarch64",
-      "generated": "2026-10-28T16:43:41Z",
+      "generated": "2026-11-03T10:08:17Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1253,7 +1253,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p5"
+            "version": "15.1p6"
           },
           {
             "licenses": [
@@ -1344,7 +1344,7 @@
               "AGPLv3+"
             ],
             "name": "vikunja",
-            "version": "2.7.0_1"
+            "version": "2.7.1"
           }
         ],
         "go": [
@@ -1851,7 +1851,7 @@
           {
             "name": "github.com/modelcontextprotocol/go-sdk",
             "purl": "",
-            "version": "v1.6.1"
+            "version": "v1.8.0"
           },
           {
             "name": "github.com/munnerz/goautoneg",
@@ -2081,7 +2081,7 @@
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.59.0"
+            "version": "v0.60.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -2141,7 +2141,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.27.2"
+            "version": "v1.27.3"
           },
           {
             "name": "xorm.io/builder",
