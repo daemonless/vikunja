@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-28T15:50:19Z",
+  "generated": "2026-11-04T15:12:46Z",
   "image": "vikunja",
   "tags": {
     "pkg-amd64": {
       "app_version": "2.6.0_2",
       "arch": "amd64",
-      "generated": "2026-10-28T15:48:32Z",
+      "generated": "2026-11-04T15:11:46Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -189,7 +189,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p5"
+            "version": "15.1p6"
           },
           {
             "licenses": [
@@ -252,7 +252,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -1069,7 +1069,7 @@
     "pkg-latest-amd64": {
       "app_version": "2.7.1",
       "arch": "amd64",
-      "generated": "2026-10-28T15:49:32Z",
+      "generated": "2026-11-04T15:12:15Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1253,7 +1253,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p5"
+            "version": "15.1p6"
           },
           {
             "licenses": [
@@ -1316,7 +1316,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
