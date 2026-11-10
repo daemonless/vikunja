@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-04T15:12:46Z",
+  "generated": "2026-11-10T08:08:08Z",
   "image": "vikunja",
   "tags": {
     "pkg-amd64": {
       "app_version": "2.6.0_2",
       "arch": "amd64",
-      "generated": "2026-11-04T15:11:46Z",
+      "generated": "2026-11-10T08:07:31Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1067,9 +1067,9 @@
       }
     },
     "pkg-latest-amd64": {
-      "app_version": "2.7.1",
+      "app_version": "2.8.0",
       "arch": "amd64",
-      "generated": "2026-11-04T15:12:15Z",
+      "generated": "2026-11-10T08:06:09Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1337,14 +1337,14 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
               "AGPLv3+"
             ],
             "name": "vikunja",
-            "version": "2.7.1"
+            "version": "2.8.0"
           }
         ],
         "go": [
@@ -1411,92 +1411,92 @@
           {
             "name": "github.com/aws/aws-sdk-go-v2",
             "purl": "",
-            "version": "v1.47.1"
+            "version": "v1.47.5"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream",
             "purl": "",
-            "version": "v1.7.20"
+            "version": "v1.7.25"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/config",
             "purl": "",
-            "version": "v1.33.6"
+            "version": "v1.33.13"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/credentials",
             "purl": "",
-            "version": "v1.20.6"
+            "version": "v1.20.13"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
             "purl": "",
-            "version": "v1.20.1"
+            "version": "v1.20.5"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/internal/configsources",
             "purl": "",
-            "version": "v1.5.4"
+            "version": "v1.5.8"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
             "purl": "",
-            "version": "v2.8.4"
+            "version": "v2.8.8"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/internal/v4a",
             "purl": "",
-            "version": "v1.5.4"
+            "version": "v1.5.8"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
             "purl": "",
-            "version": "v1.13.19"
+            "version": "v1.13.23"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/internal/checksum",
             "purl": "",
-            "version": "v1.11.5"
+            "version": "v1.11.9"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
             "purl": "",
-            "version": "v1.14.4"
+            "version": "v1.14.8"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/internal/s3shared",
             "purl": "",
-            "version": "v1.20.4"
+            "version": "v1.20.8"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/s3",
             "purl": "",
-            "version": "v1.114.0"
+            "version": "v1.114.6"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/signin",
             "purl": "",
-            "version": "v1.10.1"
+            "version": "v1.12.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/sso",
             "purl": "",
-            "version": "v1.38.1"
+            "version": "v1.39.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/ssooidc",
             "purl": "",
-            "version": "v1.43.1"
+            "version": "v1.44.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/sts",
             "purl": "",
-            "version": "v1.51.1"
+            "version": "v1.51.6"
           },
           {
             "name": "github.com/aws/smithy-go",
             "purl": "",
-            "version": "v1.28.2"
+            "version": "v1.28.7"
           },
           {
             "name": "github.com/aymerick/douceur",
@@ -1561,7 +1561,7 @@
           {
             "name": "github.com/danielgtaylor/huma/v2",
             "purl": "",
-            "version": "v2.39.1"
+            "version": "v2.40.0"
           },
           {
             "name": "github.com/danielgtaylor/mexpr",
@@ -1601,12 +1601,12 @@
           {
             "name": "github.com/fxamacker/cbor/v2",
             "purl": "",
-            "version": "v2.9.2"
+            "version": "v2.9.6"
           },
           {
             "name": "github.com/gabriel-vasile/mimetype",
             "purl": "",
-            "version": "v1.4.15"
+            "version": "v1.4.16"
           },
           {
             "name": "github.com/ganigeorgiev/fexpr",
@@ -1626,12 +1626,12 @@
           {
             "name": "github.com/go-chi/chi/v5",
             "purl": "",
-            "version": "v5.3.1"
+            "version": "v5.5.0"
           },
           {
             "name": "github.com/go-jose/go-jose/v4",
             "purl": "",
-            "version": "v4.1.4"
+            "version": "v4.1.6"
           },
           {
             "name": "github.com/go-ldap/ldap/v3",
@@ -1671,7 +1671,7 @@
           {
             "name": "github.com/go-vikunja/caldav-go",
             "purl": "",
-            "version": "v3.0.1-0.20260914150516-75a300de4623+incompatible"
+            "version": "v3.0.1-0.20261105133800-e975f7228544+incompatible"
           },
           {
             "name": "github.com/go-viper/mapstructure/v2",
@@ -1786,12 +1786,12 @@
           {
             "name": "github.com/labstack/echo/v4",
             "purl": "",
-            "version": "v4.15.4"
+            "version": "v4.16.3"
           },
           {
             "name": "github.com/labstack/echo/v5",
             "purl": "",
-            "version": "v5.3.1"
+            "version": "v5.4.2"
           },
           {
             "name": "github.com/labstack/gommon",
@@ -1821,17 +1821,17 @@
           {
             "name": "github.com/mattn/go-colorable",
             "purl": "",
-            "version": "v0.1.15"
+            "version": "v0.1.16"
           },
           {
             "name": "github.com/mattn/go-isatty",
             "purl": "",
-            "version": "v0.0.23"
+            "version": "v0.0.24"
           },
           {
             "name": "github.com/mattn/go-runewidth",
             "purl": "",
-            "version": "v0.0.24"
+            "version": "v0.0.31"
           },
           {
             "name": "github.com/mattn/go-sqlite3",
@@ -2066,7 +2066,7 @@
           {
             "name": "golang.org/x/crypto",
             "purl": "",
-            "version": "v0.57.0"
+            "version": "v0.58.0"
           },
           {
             "name": "golang.org/x/image",
@@ -2081,7 +2081,7 @@
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.60.0"
+            "version": "v0.62.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -2091,37 +2091,37 @@
           {
             "name": "golang.org/x/sync",
             "purl": "",
-            "version": "v0.23.0"
+            "version": "v0.24.0"
           },
           {
             "name": "golang.org/x/sys",
             "purl": "",
-            "version": "v0.48.0"
+            "version": "v0.49.0"
           },
           {
             "name": "golang.org/x/term",
             "purl": "",
-            "version": "v0.46.0"
+            "version": "v0.47.0"
           },
           {
             "name": "golang.org/x/text",
             "purl": "",
-            "version": "v0.42.0"
+            "version": "v0.43.0"
           },
           {
             "name": "golang.org/x/time",
             "purl": "",
-            "version": "v0.15.0"
+            "version": "v0.16.0"
           },
           {
             "name": "golang.org/x/tools",
             "purl": "",
-            "version": "v0.49.0"
+            "version": "v0.51.0"
           },
           {
             "name": "google.golang.org/protobuf",
             "purl": "",
-            "version": "v1.36.11"
+            "version": "v1.36.12"
           },
           {
             "name": "gopkg.in/yaml.v3",
